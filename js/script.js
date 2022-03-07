@@ -3,17 +3,17 @@ function kosong(x) {
   x.value = "";
 }
 function kosongAll() {
-  frm.angka1.value = "Masukkan Angka Pertama";
-  frm.angka2.value = "Masukkan Angka Kedua";
+  frm.a1.value = "Masukkan Angka Pertama";
+  frm.a2.value = "Masukkan Angka Kedua";
   frm.hasil.value = "";
 }
 function hitung(y) {
-  let angka1 = frm.angka1.value;
-  let angka2 = frm.angka2.value;
+  let angka1 = frm.a1.value;
+  let angka2 = frm.a2.value;
   let operator = y.value;
 
   if (isNaN(angka1) || angka1 == "" || isNaN(angka2) || angka2 == "") {
-    alert("Masukkan Berupa Angka");
+    alert("Harap isi data berupa angka");
   } else {
     switch (operator) {
       case "+":
