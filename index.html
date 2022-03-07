@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas 6 JS Kalkulator</title>
+  </head>
+  <body>
+    <form action="" id="formulir">
+      <table align="center" width="20%" cellpadding="10" cellspacing="10">
+        <thead>
+          <tr bgcolor="#9e9e9e">
+            <th colspan="2">KalkulatorKu</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Angka 1</td>
+            <td>
+              <input
+                type="text"
+                name="angka1"
+                id="angka1"
+                value="Masukkan Angka Pertama"
+                width="100%"
+                onfocus="kosong(this)"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Angka 2</td>
+            <td>
+              <input
+                type="text"
+                name="angka2"
+                id="angka2"
+                value="Masukkan Angka Kedua"
+                width="100%"
+                onfocus="kosong(this)"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Hasil</td>
+            <td>
+              <input type="text" name="hasil" id="hasil" value="" disabled />
+            </td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr bgcolor="#9e9e9e">
+            <td colspan="2" align="center">
+              <input
+                type="button"
+                name="+"
+                value="+"
+                onclick="hitung(this)"
+              />&nbsp;
+              <input
+                type="button"
+                name="-"
+                value="-"
+                onclick="hitung(this)"
+              />&nbsp;
+              <input
+                type="button"
+                name="*"
+                value="*"
+                onclick="hitung(this)"
+              />&nbsp;
+              <input
+                type="button"
+                name="/"
+                value="/"
+                onclick="hitung(this)"
+              />&nbsp;
+              <input
+                type="button"
+                name="^"
+                value="^"
+                onclick="hitung(this)"
+              />&nbsp;
+              <input
+                type="button"
+                name="batal"
+                value="Batal"
+                onclick="kosongAll()"
+              />
+            </td>
+          </tr>
+        </tfoot>
+      </table>
+    </form>
+    <script src="js/script.js"></script>
+  </body>
+</html>
