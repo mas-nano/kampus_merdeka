@@ -17,19 +17,19 @@ function hitung(y) {
   } else {
     switch (operator) {
       case "+":
-        frm.hasil.value = angka1 + angka2;
+        frm.hasil.value = parseInt(angka1) + parseInt(angka2);
         break;
       case "-":
-        frm.hasil.value = angka1 - angka2;
+        frm.hasil.value = parseInt(angka1) - parseInt(angka2);
         break;
       case "X":
-        frm.hasil.value = angka1 * angka2;
+        frm.hasil.value = parseInt(angka1) * parseInt(angka2);
         break;
       case "/":
-        frm.hasil.value = angka1 / angka2;
+        frm.hasil.value = parseInt(angka1) / parseInt(angka2);
         break;
       case "^":
-        frm.hasil.value = Math.pow(angka1, angka2);
+        frm.hasil.value = Math.pow(parseInt(angka1), parseInt(angka2));
         break;
     }
   }
