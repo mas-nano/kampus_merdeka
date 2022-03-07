@@ -22,7 +22,7 @@ function hitung(y) {
       case "-":
         frm.hasil.value = angka1 - angka2;
         break;
-      case "*":
+      case "X":
         frm.hasil.value = angka1 * angka2;
         break;
       case "/":
