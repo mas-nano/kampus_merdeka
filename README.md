@@ -1,1 +1,2 @@
-# kampus_merdeka
+# Kampus Merdeka
+Kumpulan tugas untuk Mitra NF Computer
